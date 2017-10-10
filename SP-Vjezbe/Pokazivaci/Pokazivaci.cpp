@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
-	printf("Ovo je test");
+	int var = 5;
+	printf("Value: %d\n", var);
+	printf("Address: %u", &var);  //Notice, the ampersand(&) before var.
+	return 0;
 }
