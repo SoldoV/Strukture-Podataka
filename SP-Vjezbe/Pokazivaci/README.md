@@ -13,11 +13,9 @@ Before you get into the concept of pointers, let's first get familiar with addre
 If you have a variable `var` in your program, `&var` will give you its address in the memory, where `&` is commonly called the reference operator.
 
 You must have seen this notation while using scanf() function. It was used in the function to store the user inputted value in the address of `var`.
-
  ```c++
   scanf("%d", &var);
   ```
-  
 ## Input  
  ```c++  
 /* Primjer korištenja adresnog operatora u C-u. */
@@ -34,8 +32,8 @@ int main()
   ```
 ## Output
  ```c++  
-Value: 5 
-Address: 2686778
+Vrijednost: 5 
+Adresa: 2686778
   ```
 **Note:** You may obtain different value of address while using this code.
 
