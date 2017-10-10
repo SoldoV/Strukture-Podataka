@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/SP-Vjezbe/Pokazivaci/Debug
+/SP-Vjezbe/SP-Vjezbe.VC.VC.opendb
+/SP-Vjezbe/SP-Vjezbe.VC.db
+/SP-Vjezbe/Pokazivaci/Pokazivaci.vcxproj
+/SP-Vjezbe/Pokazivaci/Pokazivaci.vcxproj.filters
+/SP-Vjezbe/.vs/SP-Vjezbe/v14/.suo
