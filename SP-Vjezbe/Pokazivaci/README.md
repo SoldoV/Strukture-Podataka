@@ -14,21 +14,22 @@ If you have a variable `var` in your program, `&var` will give you its address i
 
 You must have seen this notation while using scanf() function. It was used in the function to store the user inputted value in the address of `var`.
 
-
  ```c++
   scanf("%d", &var);
   ```
   
 ## Input  
  ```c++  
-  /* Example to demonstrate use of reference operator in C programming. */
+/* Primjer korištenja adresnog operatora u C-u. */
+
 #include <stdio.h>
+
 int main()
 {
-  int var = 5;
-  printf("Value: %d\n", var);
-  printf("Address: %u", &var);  //Notice, the ampersand(&) before var.
-  return 0;
+	int var = 5;
+	printf("Vrijednost: %d\n", var);
+	printf("Adresa: %x\n", &var);  //Obratite pažnju na adresni operator & prije var
+	return 0;
 }
   ```
 ## Output
