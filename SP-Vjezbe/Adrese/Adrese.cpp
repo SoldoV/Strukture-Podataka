@@ -4,7 +4,7 @@
 int main()
 {
 	int var = 5;
-	printf("Vrijednost: %d\n", var);
+	printf("Vrijednost varijable : %d\n", var);
 	printf("Adresa: %x\n", &var);  //Obratite pažnju na adresni operator & prije var
 	return 0;
 }
