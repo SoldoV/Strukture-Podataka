@@ -5,7 +5,7 @@
 char *datum(char *jmbg) //DD.MM.GG.
 {
 	int d, m, g, c;
-	char *pom;
+	char *pom = NULL;
 
 	/* codecov skip start */
 

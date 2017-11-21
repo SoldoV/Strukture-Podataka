@@ -33,13 +33,14 @@ void obrnuto2(char *niz) {
 	obrnuto2(niz + 1);
 	printf("\n%c", *niz);
 }
-void obrnuto(int broj)
+
+void obrnuto3(int broj)
 {
 	if (broj <= 0)
 		return;
 	int zn = broj % 10;
 	printf("\n%d", zn);
-	obrnuto(broj / 10);
+	obrnuto3((int)(broj / 10));
 }
 
 //int suma(int a, int b) {

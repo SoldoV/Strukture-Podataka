@@ -1,0 +1,5 @@
+﻿1>------ Build started: Project: TehnikeAdresiranja, Configuration: Debug Win32 ------
+1>  Program.cpp
+1>  TehnikeAdresiranja.vcxproj -> C:\Users\Danijel\Source\Repos\Strukture-Podataka\SP-Vjezbe\Debug\TehnikeAdresiranja.exe
+1>  TehnikeAdresiranja.vcxproj -> C:\Users\Danijel\Source\Repos\Strukture-Podataka\SP-Vjezbe\Debug\TehnikeAdresiranja.pdb (Full PDB)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
