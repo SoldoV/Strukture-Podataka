@@ -22,7 +22,7 @@ int main() {
 	*pc = 2;
 	printf("\n*pc = 2;\n");
 	printf("Adresa varijable c:%u\n", &c);
-	printf("Vrijednost varijable c:%d\n\n", c);
+	printf("Vrijednost varijable je c:%d\n\n", c);
 
 	return 0;
 }
