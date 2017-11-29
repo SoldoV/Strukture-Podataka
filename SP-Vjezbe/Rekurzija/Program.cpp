@@ -2,7 +2,8 @@
 #include <ctype.h>
 #include<string.h>
 
-#define _CRT_SECURE_NO_WARNINGS
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
 
 void funkcija(int a){
 	a++;

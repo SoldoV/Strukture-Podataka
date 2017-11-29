@@ -1,6 +1,8 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
 
 char *datum(char *jmbg) //DD.MM.GG.
 {

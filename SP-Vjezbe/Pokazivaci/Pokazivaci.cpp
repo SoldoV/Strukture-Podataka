@@ -1,9 +1,12 @@
 /* Primjer korištenja pokazivaèa u C-u*/
 #include <stdio.h>
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
+
 int main() {
 
-	int* pc;		//Pokazivaè
-	int c;			//Varijabla
+	unsigned int* pc;		//Pokazivaè
+	unsigned int c;			//Varijabla
 
 	c = 22;
 	printf("Adresa varijable c:%u\n", &c);

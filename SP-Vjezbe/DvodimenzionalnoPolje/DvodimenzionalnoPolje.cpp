@@ -1,4 +1,7 @@
-#include <stdio.h> 
+#include <stdio.h>
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
+
 #define MAXRED 8
 #define MAXSTUP 10
 
