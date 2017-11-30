@@ -48,12 +48,14 @@ void prepisi(FILE *fizlaz, FILE *fulaz)
 {
 	zapis pom;
 	int adr;
+	int i = 0;
 	while (fscanf(fulaz, "%d,%[^,],%f", &pom.sifra, &pom.naziv, &pom.cijena) != EOF)
 	{
 		adr = adresa(pom.sifra);
-		printf("\n%d -> %d %s %.2f", adr, pom.sifra, pom.naziv, pom.cijena);
+		printf("\n%d: Pret:%d -> %d %s %.2f",i++, adr, pom.sifra, pom.naziv, pom.cijena);
 		upis(fizlaz, adr, pom);
 	}
+	printf("\nUkupno: %d", i);
 }
 
 void parametri()
@@ -71,6 +73,7 @@ void ispis(FILE *f)
 {
 	printf("\n\nDatoteka:\n");
 	zapis pretinac[C];
+	int br = 0;
 	for (int i = 0; i < M; i++)
 	{
 		fseek(f, i*BLOK, SEEK_SET);
@@ -78,13 +81,16 @@ void ispis(FILE *f)
 		printf("%d ->\t", i);
 		for (int j = 0; j < C; j++)
 		{
-			if (pretinac[j].sifra != 0)
+			if (pretinac[j].sifra != 0) {
 				printf("%03d\t", pretinac[j].sifra);
+				br++;
+			}
 			else
 				printf("...\t");
 		}
 		printf("\n");
 	}
+	printf("Ukupno: %d", br);
 }
 
 FILE * ucitaj(char *name)
