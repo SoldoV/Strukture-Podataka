@@ -18,3 +18,4 @@ typedef struct {
 FILE * ucitaj(char *name);
 void parametri();
 void ispis(FILE *f);
+int adresa(int sifra);

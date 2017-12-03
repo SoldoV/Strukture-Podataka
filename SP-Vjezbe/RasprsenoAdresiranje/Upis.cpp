@@ -85,6 +85,8 @@ void ispis(FILE *f)
 		}
 		printf("\n");
 	}
+
+	parametri();
 }
 
 FILE * ucitaj(char *name)

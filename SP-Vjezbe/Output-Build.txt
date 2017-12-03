@@ -1,5 +1,7 @@
-﻿1>------ Build started: Project: TehnikeAdresiranja, Configuration: Debug Win32 ------
+﻿1>------ Rebuild All started: Project: RasprsenoAdresiranje, Configuration: Debug Win32 ------
+1>  Upis.cpp
 1>  Program.cpp
-1>  TehnikeAdresiranja.vcxproj -> C:\Users\Danijel\Source\Repos\Strukture-Podataka\SP-Vjezbe\Debug\TehnikeAdresiranja.exe
-1>  TehnikeAdresiranja.vcxproj -> C:\Users\Danijel\Source\Repos\Strukture-Podataka\SP-Vjezbe\Debug\TehnikeAdresiranja.pdb (Full PDB)
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+1>  Generating Code...
+1>  RasprsenoAdresiranje.vcxproj -> C:\Users\Danijel\Source\Repos\Strukture-Podataka\SP-Vjezbe\Debug\RasprsenoAdresiranje.exe
+1>  RasprsenoAdresiranje.vcxproj -> C:\Users\Danijel\Source\Repos\Strukture-Podataka\SP-Vjezbe\Debug\RasprsenoAdresiranje.pdb (Full PDB)
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
