@@ -10,7 +10,7 @@ typedef struct {
 }zapis;
 
 //Parametri
-#define MAXZAPIS 50
+#define MAXZAPIS 60
 #define BLOK 512
 #define C (int)(BLOK/sizeof(zapis))
 #define M (int) ((MAXZAPIS/C) * 1.3)
