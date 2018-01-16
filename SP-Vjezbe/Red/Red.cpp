@@ -13,10 +13,18 @@ void init(Red *red) {
 }
 
 int dodaj(Red *red, int broj) {
+	if ((red->ulaz + 1) % MAX == red->izlaz)
+		return -1;
+	red->ulaz = (red->ulaz + 1) % MAX;
+	red->niz[red->ulaz] = broj;
 	return 1;
 }
 
 int skini(Red *red,  int *broj) {
+	if (red->izlaz == red->ulaz)
+		return -1;
+	*broj = red->niz[red->izlaz];
+	red->izlaz = (red->izlaz + 1) % MAX;
 	return 1;
 }
 
